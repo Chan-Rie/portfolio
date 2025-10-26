@@ -1,0 +1,30 @@
+/* タブレット向けレイアウト */
+@media(max-width: 1000px) {
+    .item-box{
+        width: 48%;
+    }
+    .txt-contents{
+        width: 50%;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media(max-width: 670px) {
+    .item-box{
+        width: 100%;
+    }
+    .header-right{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .self-introduction{
+        float: none;
+        padding: 70px 0;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+}
